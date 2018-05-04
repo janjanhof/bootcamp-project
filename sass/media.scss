@@ -1,0 +1,52 @@
+@media (min-width: 600px) {
+
+  body{
+    font-size: 30px;
+  }
+  #welcome {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  .box {
+    margin: 0 auto;
+    width: 80vw;
+    .text {
+      background: none;
+    }
+  }
+  .days {
+    margin-top: 50px;
+  }
+  #main {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+  }
+  .daysContainer div {
+    width: 140px;
+    height: 60px;
+    font-size: 25px;
+    margin: 15px;
+  }
+  .reservation {
+    font-size: 20px;
+    width: 600px;
+  }
+  .admin {
+    font-size: 20px;
+  }
+  .return {
+    font-size: 20px;
+  }
+  .pass {
+    font-size: 30px;
+    width: 700px;
+    input {
+      margin: 30px;
+    }
+  }
+  .adminContainer {
+    margin: 0 200px;
+  }
+}

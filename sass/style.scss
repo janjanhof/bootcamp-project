@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+//body
+body {
+  font-family: 'Gloria Hallelujah', Arial, sans-serif, cursive;
+  font-size: 15px;
+  background-color: rgba(180, 169, 157, 1);
+}
+
+
+//welcome sentence
+#welcome {
+  font-size: 20px;
+  clear: both;
+}
+//styles for main component app
+#main {
+  background-image: url("../images/background6.jpeg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+// styles for all boxes .box
+.box {
+  text-align: center;
+  .text {
+    background-color: rgba(180, 169, 157, 0.6);
+  }
+}
+
+//styles for days divs
+.daysContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:	center;
+  div {
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    flex-direction: row;
+    background-color: rgba(180, 169, 157, 0.6);
+    text-align: center;
+    font-size: 14px;
+    &:hover {
+      border: 2px solid grey;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+//  Links
+a {
+  text-decoration: none;
+  color: black;
+  &:hover{
+    color: white;
+  }
+}
+//terminarze
+.scheduleContainer {
+  background-color: rgba(180, 169, 157, 0.6);
+  display: flex;
+  justify-content: center;
+}
+//formularz rezerwacyjny
+.reservation {
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  background-color: rgba(180, 169, 157, 0.6);
+  input {
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.85em;
+  }
+  textarea {
+    font-family: inherit;
+  }
+}
+#submit {
+  margin-bottom: 25px;
+}
+
+//panel administracyjny
+.admin {
+  float: left;
+  font-size: 15px;
+  &:hover {
+  color: white;
+  }
+}
+
+//  panel admin
+.adminContainer{
+  background-color: rgba(180, 169, 157, 0.6);
+  padding: 20px;
+}
+.list {
+  background-color: rgba(180, 169, 157, 0.6);
+  cursor: auto;
+}
+.pass {
+  font-size: 12px;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  background-color: rgba(180, 169, 157, 0.6);
+  input {
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.85em;
+  }
+}
+.adminDay {
+  &:hover {
+    cursor: pointer;
+    color: white;
+  }
+  .list {
+    color: black;
+  }
+}
+.return {
+  float: right;
+}
+
+// media queries
+@import "media.scss";
