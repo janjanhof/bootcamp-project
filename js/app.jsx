@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function(){
             if(this.state.password !== "admin") {
                 return (
                     <div className="pass">
-                        <p>Wpisz hasło aby zalogować się do panelu administracyjnego:</p>
+                        <p>Wpisz hasło aby zalogować się do panelu administracyjnegooo:</p>
                         <form >
                             <input value={ this.state.password } onChange={ this.handlePassword } placeholder="Wpisz hasło..."/>
                         </form>
